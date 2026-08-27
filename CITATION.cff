@@ -4,8 +4,8 @@ title: "BI Camarón Ecuador"
 type: software
 version: "1.0.0"
 authors:
-  - family-names: "REEMPLAZAR"
-    given-names: "AUTORES DEL ARTICULO"
-repository-code: "https://github.com/REEMPLAZAR_OWNER/bi-camaron-ecuador"
-url: "https://github.com/REEMPLAZAR_OWNER/bi-camaron-ecuador"
+  - family-names: "Merchan Dota"
+    given-names: "Anthony Andres"
+repository-code: "https://github.com/Yax145/bi-camaron-ecuador"
+url: "https://github.com/Yax145/bi-camaron-ecuador"
 license: MIT
