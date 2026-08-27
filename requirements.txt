@@ -1,0 +1,7 @@
+# Python packages explicitly used by the notebooks and not guaranteed by the standard library.
+# Spark/PySpark/Delta are managed by the Databricks execution environment and are documented in docs/ENVIRONMENT.md.
+pandas==2.2.3
+openpyxl==3.1.5
+requests>=2.31,<3
+beautifulsoup4>=4.12,<5
+tenacity>=8.2,<10

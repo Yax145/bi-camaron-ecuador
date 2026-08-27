@@ -1,0 +1,35 @@
+# Secrets and local configuration
+.env
+.env.*
+*.pem
+*.key
+*token*
+*secret*
+credentials*.json
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary archives and local exports
+*.rar
+*.7z
+*.tmp
+~$*
+
+# Raw institutional datasets are intentionally not versioned here.
+data/raw/
+data/bronze/
+
+# Databricks/local caches
+.databricks/
+.sparkStaging/

@@ -1,0 +1,704 @@
+{
+  "captured_at_utc": "2026-08-27T13:43:06.761906+00:00",
+  "expected_input_sha256": {
+    "BCE": "2cb48f6bb83c56f6924d8f8233d03be2115b2e0d3000e3a359bccd25c8157672",
+    "CNA": "1217b296e50e37f8aafd045079d79119a4123cf0805e0c01b1636f62c10613a1"
+  },
+  "manifests": {
+    "bce_gold": {
+      "config_hash": null,
+      "fail_status_count": 0,
+      "path": "/Volumes/camaronera_2026/oro/metadatos_bce_gold/gold_manifest_20260827T124906875051Z_BCE.json",
+      "pipeline_version": "2.1",
+      "run_id": "20260827T124906875051Z",
+      "sha256_file": "7d5cc0f6240800d7bd33a34be2731f037bec1eeb68cee6e75836c66f7e43fcf2",
+      "software_versions": {
+        "databricks_runtime": "client.5.10",
+        "delta-spark": "3.4.0+databricks.connect.18.0.9",
+        "openpyxl": "3.1.5",
+        "pandas": "2.2.3",
+        "playwright": "not_installed",
+        "pyspark": "4.1.0+databricks.connect.18.0.9",
+        "python": "3.12.3",
+        "spark": "4.2.0",
+        "spark_databricks_version": "unavailable"
+      },
+      "software_versions_sha256": "0a88dd57201d3c5a242af41e28167014c0f71717a5a3d551c5866ca4bf09a836",
+      "warn_status_count": 0
+    },
+    "bce_silver": {
+      "config_hash": null,
+      "fail_status_count": 0,
+      "path": "/Volumes/camaronera_2026/plata/metadatos_bce/silver_manifest_20260827T124736884951Z_BCE.json",
+      "pipeline_version": "2.1.0",
+      "run_id": "20260827T124736884951Z",
+      "sha256_file": "4bcf936032bccdff4b625ddaa638e0afd12915e0ca4e8028c65781613791573c",
+      "software_versions": {
+        "databricks_runtime": "client.5.10",
+        "delta-spark": "3.4.0+databricks.connect.18.0.9",
+        "openpyxl": "3.1.5",
+        "pandas": "2.2.3",
+        "playwright": "not_installed",
+        "pyspark": "4.1.0+databricks.connect.18.0.9",
+        "python": "3.12.3",
+        "spark": "4.2.0",
+        "spark_databricks_version": "unavailable"
+      },
+      "software_versions_sha256": "0a88dd57201d3c5a242af41e28167014c0f71717a5a3d551c5866ca4bf09a836",
+      "warn_status_count": 1
+    },
+    "cna_gold": {
+      "config_hash": null,
+      "fail_status_count": 0,
+      "path": "/Volumes/camaronera_2026/oro/metadatos_cna_gold/gold_manifest_20260827T125230400782Z_CNA.json",
+      "pipeline_version": "2.1",
+      "run_id": "20260827T125230400782Z",
+      "sha256_file": "1109936f515dde65a9be8f41ef9757bc37bb69985ac61666304e49c33ce4c0a5",
+      "software_versions": {
+        "databricks_runtime": "client.5.10",
+        "delta-spark": "3.4.0+databricks.connect.18.0.9",
+        "openpyxl": "3.1.5",
+        "pandas": "2.2.3",
+        "playwright": "not_installed",
+        "pyspark": "4.1.0+databricks.connect.18.0.9",
+        "python": "3.12.3",
+        "spark": "4.2.0",
+        "spark_databricks_version": "unavailable"
+      },
+      "software_versions_sha256": "0a88dd57201d3c5a242af41e28167014c0f71717a5a3d551c5866ca4bf09a836",
+      "warn_status_count": 1
+    },
+    "cna_silver": {
+      "config_hash": "9981eefea1c5367f457d69fe1fb0c692bdcd446ffa62a6951b601ace2155439d",
+      "fail_status_count": 0,
+      "path": "/Volumes/camaronera_2026/plata/metadatos_cna/silver_manifest_20260827T124741277943Z_CNA.json",
+      "pipeline_version": "2.1.0",
+      "run_id": "20260827T124741277943Z",
+      "sha256_file": "a27766c4f363a17580c37e598e5ba3c66959acc761468d207c2697e2e58ec6de",
+      "software_versions": {
+        "databricks_runtime": "client.5.10",
+        "delta-spark": "3.4.0+databricks.connect.18.0.9",
+        "openpyxl": "3.1.5",
+        "pandas": "2.2.3",
+        "playwright": "not_installed",
+        "pyspark": "4.1.0+databricks.connect.18.0.9",
+        "python": "3.12.3",
+        "spark": "4.2.0",
+        "spark_databricks_version": "unavailable"
+      },
+      "software_versions_sha256": "0a88dd57201d3c5a242af41e28167014c0f71717a5a3d551c5866ca4bf09a836",
+      "warn_status_count": 0
+    }
+  },
+  "pipelines": {
+    "bce_gold": {
+      "config_sha256": "94986aac3f99e3dedd54d75191459a839666e75c073235484c33f2f50630c3c8",
+      "environment_sha256": "0a88dd57201d3c5a242af41e28167014c0f71717a5a3d551c5866ca4bf09a836",
+      "input_snapshot_sha256": "2cb48f6bb83c56f6924d8f8233d03be2115b2e0d3000e3a359bccd25c8157672",
+      "pipeline_version": "2.1",
+      "run_id": "20260827T124906875051Z",
+      "silver_run_id": "20260827T124736884951Z"
+    },
+    "bce_silver": {
+      "config_contract_sha256": "210dde5c49742b69e7dca8890da4a0632efe600550e8ed0b92d20b9b72c3afe7",
+      "environment_sha256": "0a88dd57201d3c5a242af41e28167014c0f71717a5a3d551c5866ca4bf09a836",
+      "input_snapshot_sha256": "2cb48f6bb83c56f6924d8f8233d03be2115b2e0d3000e3a359bccd25c8157672",
+      "note": "config_contract_sha256 es una huella del contrato observado. El Silver BCE actual no persiste un config_hash nativo del notebook.",
+      "pipeline_version": "2.1.0",
+      "run_id": "20260827T124736884951Z"
+    },
+    "cna_gold": {
+      "config_sha256": "4bcc7b929295487e89a7545e5743e112dd95ff05ca25e908d4fb190749628aff",
+      "environment_sha256": "0a88dd57201d3c5a242af41e28167014c0f71717a5a3d551c5866ca4bf09a836",
+      "input_snapshot_sha256": "1217b296e50e37f8aafd045079d79119a4123cf0805e0c01b1636f62c10613a1",
+      "pipeline_version": "2.1",
+      "run_id": "20260827T125230400782Z",
+      "silver_run_id": "20260827T124741277943Z"
+    },
+    "cna_silver": {
+      "config_sha256": "9981eefea1c5367f457d69fe1fb0c692bdcd446ffa62a6951b601ace2155439d",
+      "environment_sha256": "0a88dd57201d3c5a242af41e28167014c0f71717a5a3d551c5866ca4bf09a836",
+      "input_snapshot_sha256": "1217b296e50e37f8aafd045079d79119a4123cf0805e0c01b1636f62c10613a1",
+      "pipeline_version": "2.1.0",
+      "run_id": "20260827T124741277943Z"
+    }
+  },
+  "study_scope": {
+    "bce": "Silver + Gold; adquisición previa externa a la prueba Databricks",
+    "cna": "Bronze lineage + Silver + Gold"
+  },
+  "tables": {
+    "bce_gold_dim_fecha": {
+      "canonical_columns": [
+        "anio",
+        "anio_mes",
+        "fecha",
+        "fecha_key",
+        "mes_nombre",
+        "mes_numero",
+        "semestre",
+        "trimestre"
+      ],
+      "columns": [
+        "fecha_key",
+        "fecha",
+        "anio",
+        "mes_numero",
+        "mes_nombre",
+        "anio_mes",
+        "trimestre",
+        "semestre"
+      ],
+      "rows": 66,
+      "schema_json": "{\"fields\":[{\"metadata\":{},\"name\":\"fecha_key\",\"nullable\":true,\"type\":\"integer\"},{\"metadata\":{},\"name\":\"fecha\",\"nullable\":true,\"type\":\"date\"},{\"metadata\":{},\"name\":\"anio\",\"nullable\":true,\"type\":\"integer\"},{\"metadata\":{},\"name\":\"mes_numero\",\"nullable\":true,\"type\":\"integer\"},{\"metadata\":{},\"name\":\"mes_nombre\",\"nullable\":true,\"type\":\"string\"},{\"metadata\":{},\"name\":\"anio_mes\",\"nullable\":true,\"type\":\"string\"},{\"metadata\":{},\"name\":\"trimestre\",\"nullable\":true,\"type\":\"integer\"},{\"metadata\":{},\"name\":\"semestre\",\"nullable\":true,\"type\":\"integer\"}],\"type\":\"struct\"}",
+      "schema_sha256": "a2cb72bdc7fb53df1559c470422c26f68db19fcd514c68bae16fcc86baa2d323",
+      "sha256_canonical": "5b3210a0c3f404f6d930463cab9bc740d29bd7599b2eafd4f8fb48f587aa3230",
+      "table_ref": "camaronera_2026.oro.bce_dim_fecha"
+    },
+    "bce_gold_dim_producto": {
+      "canonical_columns": [
+        "codigo_nivel3",
+        "codigo_producto_principal",
+        "nivel3",
+        "producto_key",
+        "producto_principal"
+      ],
+      "columns": [
+        "producto_key",
+        "codigo_nivel3",
+        "nivel3",
+        "codigo_producto_principal",
+        "producto_principal"
+      ],
+      "rows": 1,
+      "schema_json": "{\"fields\":[{\"metadata\":{},\"name\":\"producto_key\",\"nullable\":true,\"type\":\"string\"},{\"metadata\":{},\"name\":\"codigo_nivel3\",\"nullable\":true,\"type\":\"string\"},{\"metadata\":{},\"name\":\"nivel3\",\"nullable\":true,\"type\":\"string\"},{\"metadata\":{},\"name\":\"codigo_producto_principal\",\"nullable\":true,\"type\":\"string\"},{\"metadata\":{},\"name\":\"producto_principal\",\"nullable\":true,\"type\":\"string\"}],\"type\":\"struct\"}",
+      "schema_sha256": "2836c07a6d9d27f2e9cd975da536960516039fdfaf7e0f7952881bf3edc12d30",
+      "sha256_canonical": "b8e845a6f47acefad5e6ee2e25e6403c4a55ee8fd8e0e4a63bf6a89651d3388f",
+      "table_ref": "camaronera_2026.oro.bce_dim_producto"
+    },
+    "bce_gold_dim_subpartida": {
+      "canonical_columns": [
+        "codigo_producto_principal",
+        "codigo_subpartida",
+        "subpartida_corta",
+        "subpartida_key",
+        "subpartida_oficial"
+      ],
+      "columns": [
+        "subpartida_key",
+        "codigo_subpartida",
+        "subpartida_oficial",
+        "subpartida_corta",
+        "codigo_producto_principal"
+      ],
+      "rows": 14,
+      "schema_json": "{\"fields\":[{\"metadata\":{},\"name\":\"subpartida_key\",\"nullable\":true,\"type\":\"string\"},{\"metadata\":{},\"name\":\"codigo_subpartida\",\"nullable\":true,\"type\":\"string\"},{\"metadata\":{},\"name\":\"subpartida_oficial\",\"nullable\":true,\"type\":\"string\"},{\"metadata\":{},\"name\":\"subpartida_corta\",\"nullable\":true,\"type\":\"string\"},{\"metadata\":{},\"name\":\"codigo_producto_principal\",\"nullable\":true,\"type\":\"string\"}],\"type\":\"struct\"}",
+      "schema_sha256": "f3cd3b1c0b7e676e351c51013d09ba4746c56434b4bca63d8b2ccff3a736782e",
+      "sha256_canonical": "4e6064b5bc09b5f3ca2bae6558b73fe66783f495102a3aa2140363d4fb8e3d36",
+      "table_ref": "camaronera_2026.oro.bce_dim_subpartida"
+    },
+    "bce_gold_fact_exportaciones": {
+      "canonical_columns": [
+        "fecha_key",
+        "fob_miles_usd",
+        "fob_usd",
+        "precio_subpartida_usd_kg",
+        "producto_key",
+        "subpartida_key",
+        "toneladas_metricas_peso_neto"
+      ],
+      "columns": [
+        "fecha_key",
+        "producto_key",
+        "subpartida_key",
+        "toneladas_metricas_peso_neto",
+        "fob_miles_usd",
+        "fob_usd",
+        "precio_subpartida_usd_kg"
+      ],
+      "rows": 543,
+      "schema_json": "{\"fields\":[{\"metadata\":{},\"name\":\"fecha_key\",\"nullable\":true,\"type\":\"integer\"},{\"metadata\":{},\"name\":\"producto_key\",\"nullable\":true,\"type\":\"string\"},{\"metadata\":{},\"name\":\"subpartida_key\",\"nullable\":true,\"type\":\"string\"},{\"metadata\":{},\"name\":\"toneladas_metricas_peso_neto\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"fob_miles_usd\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"fob_usd\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"precio_subpartida_usd_kg\",\"nullable\":true,\"type\":\"double\"}],\"type\":\"struct\"}",
+      "schema_sha256": "0b2c561e1a96045eaaf7bede2fc721f719b59842b4fe507415eee31ed9d58545",
+      "sha256_canonical": "70a205a56a58a81569a279f3225b1320be7a7a17b7624e6fde7bd77c8d99a9f5",
+      "table_ref": "camaronera_2026.oro.bce_fact_exportaciones_subpartida"
+    },
+    "bce_gold_indicadores_kpi": {
+      "canonical_columns": [
+        "codigo_subpartida_top_fob_ultimo_periodo",
+        "fob_usd_total_historico",
+        "fob_usd_ultimo_periodo",
+        "periodo_max",
+        "periodo_min",
+        "periodos_disponibles",
+        "subpartida_top_fob_ultimo_periodo",
+        "subpartidas_disponibles",
+        "tm_ultimo_periodo",
+        "toneladas_metricas_total_historico",
+        "variacion_yoy_fob_ultimo_mes_comparable",
+        "variacion_yoy_tm_ultimo_mes_comparable"
+      ],
+      "columns": [
+        "periodo_min",
+        "periodo_max",
+        "periodos_disponibles",
+        "subpartidas_disponibles",
+        "toneladas_metricas_total_historico",
+        "fob_usd_total_historico",
+        "tm_ultimo_periodo",
+        "fob_usd_ultimo_periodo",
+        "variacion_yoy_tm_ultimo_mes_comparable",
+        "variacion_yoy_fob_ultimo_mes_comparable",
+        "codigo_subpartida_top_fob_ultimo_periodo",
+        "subpartida_top_fob_ultimo_periodo"
+      ],
+      "rows": 1,
+      "schema_json": "{\"fields\":[{\"metadata\":{},\"name\":\"periodo_min\",\"nullable\":true,\"type\":\"date\"},{\"metadata\":{},\"name\":\"periodo_max\",\"nullable\":true,\"type\":\"date\"},{\"metadata\":{},\"name\":\"periodos_disponibles\",\"nullable\":true,\"type\":\"integer\"},{\"metadata\":{},\"name\":\"subpartidas_disponibles\",\"nullable\":true,\"type\":\"integer\"},{\"metadata\":{},\"name\":\"toneladas_metricas_total_historico\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"fob_usd_total_historico\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"tm_ultimo_periodo\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"fob_usd_ultimo_periodo\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"variacion_yoy_tm_ultimo_mes_comparable\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"variacion_yoy_fob_ultimo_mes_comparable\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"codigo_subpartida_top_fob_ultimo_periodo\",\"nullable\":true,\"type\":\"string\"},{\"metadata\":{},\"name\":\"subpartida_top_fob_ultimo_periodo\",\"nullable\":true,\"type\":\"string\"}],\"type\":\"struct\"}",
+      "schema_sha256": "cbd578b6eb7aa3bb11ac06ae4c9c8cb33c0d0264e26a084cb0c022ce46e94596",
+      "sha256_canonical": "89308ae23b816b82141edffc10e56304ba6430568fb71ab9bda142fa818d4a19",
+      "table_ref": "camaronera_2026.oro.bce_indicadores_kpi"
+    },
+    "bce_gold_resumen_anual": {
+      "canonical_columns": [
+        "anio",
+        "anio_completo",
+        "fob_total_miles_usd",
+        "fob_total_usd",
+        "meses_reportados",
+        "precio_promedio_ponderado_usd_kg",
+        "toneladas_metricas_totales",
+        "variacion_yoy_fob_anual",
+        "variacion_yoy_tm_anual"
+      ],
+      "columns": [
+        "anio",
+        "toneladas_metricas_totales",
+        "fob_total_miles_usd",
+        "fob_total_usd",
+        "meses_reportados",
+        "anio_completo",
+        "precio_promedio_ponderado_usd_kg",
+        "variacion_yoy_tm_anual",
+        "variacion_yoy_fob_anual"
+      ],
+      "rows": 6,
+      "schema_json": "{\"fields\":[{\"metadata\":{},\"name\":\"anio\",\"nullable\":true,\"type\":\"integer\"},{\"metadata\":{},\"name\":\"toneladas_metricas_totales\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"fob_total_miles_usd\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"fob_total_usd\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"meses_reportados\",\"nullable\":true,\"type\":\"long\"},{\"metadata\":{},\"name\":\"anio_completo\",\"nullable\":true,\"type\":\"boolean\"},{\"metadata\":{},\"name\":\"precio_promedio_ponderado_usd_kg\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"variacion_yoy_tm_anual\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"variacion_yoy_fob_anual\",\"nullable\":true,\"type\":\"double\"}],\"type\":\"struct\"}",
+      "schema_sha256": "f39dc2aa30232bfdcaa4b93b5d7585912ac2c4d889e557a0256397f3fd087728",
+      "sha256_canonical": "daf5e45e0a31abbd214c829720861ec3253fdcefd912eac7832875c40c0ddc9c",
+      "table_ref": "camaronera_2026.oro.bce_resumen_anual"
+    },
+    "bce_gold_resumen_mensual": {
+      "canonical_columns": [
+        "anio",
+        "anio_mes",
+        "fecha_key",
+        "fecha_periodo",
+        "fob_total_miles_usd",
+        "fob_total_usd",
+        "mes_nombre",
+        "mes_numero",
+        "precio_promedio_ponderado_usd_kg",
+        "semestre",
+        "subpartidas_reportadas",
+        "toneladas_metricas_totales",
+        "trimestre"
+      ],
+      "columns": [
+        "fecha_key",
+        "fecha_periodo",
+        "anio",
+        "mes_numero",
+        "mes_nombre",
+        "anio_mes",
+        "trimestre",
+        "semestre",
+        "toneladas_metricas_totales",
+        "fob_total_miles_usd",
+        "fob_total_usd",
+        "subpartidas_reportadas",
+        "precio_promedio_ponderado_usd_kg"
+      ],
+      "rows": 66,
+      "schema_json": "{\"fields\":[{\"metadata\":{},\"name\":\"fecha_key\",\"nullable\":true,\"type\":\"integer\"},{\"metadata\":{},\"name\":\"fecha_periodo\",\"nullable\":true,\"type\":\"date\"},{\"metadata\":{},\"name\":\"anio\",\"nullable\":true,\"type\":\"integer\"},{\"metadata\":{},\"name\":\"mes_numero\",\"nullable\":true,\"type\":\"integer\"},{\"metadata\":{},\"name\":\"mes_nombre\",\"nullable\":true,\"type\":\"string\"},{\"metadata\":{},\"name\":\"anio_mes\",\"nullable\":true,\"type\":\"string\"},{\"metadata\":{},\"name\":\"trimestre\",\"nullable\":true,\"type\":\"integer\"},{\"metadata\":{},\"name\":\"semestre\",\"nullable\":true,\"type\":\"integer\"},{\"metadata\":{},\"name\":\"toneladas_metricas_totales\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"fob_total_miles_usd\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"fob_total_usd\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"subpartidas_reportadas\",\"nullable\":true,\"type\":\"long\"},{\"metadata\":{},\"name\":\"precio_promedio_ponderado_usd_kg\",\"nullable\":true,\"type\":\"double\"}],\"type\":\"struct\"}",
+      "schema_sha256": "d4c44a569a7d48e89253d81fb104468c9cff02cbe1982503f1997b16049963c1",
+      "sha256_canonical": "a6b0ec7cf3837f825ba9606cdba3456993898fac82e0b73b3b0918912c765dd4",
+      "table_ref": "camaronera_2026.oro.bce_resumen_mensual"
+    },
+    "bce_gold_serving_tableau": {
+      "canonical_columns": [
+        "anio",
+        "anio_mes",
+        "cobertura_anio",
+        "codigo_nivel3",
+        "codigo_producto_principal",
+        "codigo_subpartida",
+        "es_ultimo_periodo_disponible",
+        "fecha_periodo",
+        "fob_miles_usd",
+        "fob_usd",
+        "fob_usd_prev_anio_mismo_mes_subpartida",
+        "mes_nombre",
+        "mes_numero",
+        "meses_reportados",
+        "nivel3",
+        "participacion_fob_mes",
+        "participacion_tm_mes",
+        "periodo",
+        "precio_subpartida_usd_kg",
+        "producto_principal",
+        "ranking_fob_mes",
+        "ranking_tm_mes",
+        "semestre",
+        "subpartida",
+        "tm_prev_anio_mismo_mes_subpartida",
+        "toneladas_metricas_peso_neto",
+        "trimestre",
+        "variacion_yoy_fob_subpartida",
+        "variacion_yoy_tm_subpartida"
+      ],
+      "columns": [
+        "fecha_periodo",
+        "periodo",
+        "anio",
+        "mes_numero",
+        "mes_nombre",
+        "anio_mes",
+        "trimestre",
+        "semestre",
+        "meses_reportados",
+        "cobertura_anio",
+        "es_ultimo_periodo_disponible",
+        "codigo_nivel3",
+        "nivel3",
+        "codigo_producto_principal",
+        "producto_principal",
+        "codigo_subpartida",
+        "subpartida",
+        "toneladas_metricas_peso_neto",
+        "fob_miles_usd",
+        "fob_usd",
+        "precio_subpartida_usd_kg",
+        "participacion_tm_mes",
+        "participacion_fob_mes",
+        "ranking_tm_mes",
+        "ranking_fob_mes",
+        "tm_prev_anio_mismo_mes_subpartida",
+        "fob_usd_prev_anio_mismo_mes_subpartida",
+        "variacion_yoy_tm_subpartida",
+        "variacion_yoy_fob_subpartida"
+      ],
+      "rows": 543,
+      "schema_json": "{\"fields\":[{\"metadata\":{},\"name\":\"fecha_periodo\",\"nullable\":true,\"type\":\"date\"},{\"metadata\":{},\"name\":\"periodo\",\"nullable\":true,\"type\":\"string\"},{\"metadata\":{},\"name\":\"anio\",\"nullable\":true,\"type\":\"integer\"},{\"metadata\":{},\"name\":\"mes_numero\",\"nullable\":true,\"type\":\"integer\"},{\"metadata\":{},\"name\":\"mes_nombre\",\"nullable\":true,\"type\":\"string\"},{\"metadata\":{},\"name\":\"anio_mes\",\"nullable\":true,\"type\":\"string\"},{\"metadata\":{},\"name\":\"trimestre\",\"nullable\":true,\"type\":\"integer\"},{\"metadata\":{},\"name\":\"semestre\",\"nullable\":true,\"type\":\"integer\"},{\"metadata\":{},\"name\":\"meses_reportados\",\"nullable\":true,\"type\":\"long\"},{\"metadata\":{},\"name\":\"cobertura_anio\",\"nullable\":true,\"type\":\"string\"},{\"metadata\":{},\"name\":\"es_ultimo_periodo_disponible\",\"nullable\":true,\"type\":\"boolean\"},{\"metadata\":{},\"name\":\"codigo_nivel3\",\"nullable\":true,\"type\":\"string\"},{\"metadata\":{},\"name\":\"nivel3\",\"nullable\":true,\"type\":\"string\"},{\"metadata\":{},\"name\":\"codigo_producto_principal\",\"nullable\":true,\"type\":\"string\"},{\"metadata\":{},\"name\":\"producto_principal\",\"nullable\":true,\"type\":\"string\"},{\"metadata\":{},\"name\":\"codigo_subpartida\",\"nullable\":true,\"type\":\"string\"},{\"metadata\":{},\"name\":\"subpartida\",\"nullable\":true,\"type\":\"string\"},{\"metadata\":{},\"name\":\"toneladas_metricas_peso_neto\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"fob_miles_usd\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"fob_usd\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"precio_subpartida_usd_kg\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"participacion_tm_mes\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"participacion_fob_mes\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"ranking_tm_mes\",\"nullable\":true,\"type\":\"integer\"},{\"metadata\":{},\"name\":\"ranking_fob_mes\",\"nullable\":true,\"type\":\"integer\"},{\"metadata\":{},\"name\":\"tm_prev_anio_mismo_mes_subpartida\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"fob_usd_prev_anio_mismo_mes_subpartida\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"variacion_yoy_tm_subpartida\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"variacion_yoy_fob_subpartida\",\"nullable\":true,\"type\":\"double\"}],\"type\":\"struct\"}",
+      "schema_sha256": "090c6f47052906901a2131d94fbfd182d46e25a4e11f0c020e9532d8e6d1d237",
+      "sha256_canonical": "faddf4f0a0147727a65fd6a0140a432777984ba60cc50302e4a950c30a95623a",
+      "table_ref": "camaronera_2026.oro.bce_serving_tableau"
+    },
+    "bce_silver_exportaciones": {
+      "canonical_columns": [
+        "anio",
+        "codigo_nivel3",
+        "codigo_producto_principal",
+        "codigo_subpartida",
+        "fecha_periodo",
+        "fob_miles_usd",
+        "fob_usd",
+        "mes_numero",
+        "nivel3",
+        "periodo",
+        "producto_principal",
+        "subpartida",
+        "toneladas_metricas_peso_neto"
+      ],
+      "columns": [
+        "periodo",
+        "fecha_periodo",
+        "anio",
+        "mes_numero",
+        "codigo_nivel3",
+        "nivel3",
+        "codigo_producto_principal",
+        "producto_principal",
+        "codigo_subpartida",
+        "subpartida",
+        "toneladas_metricas_peso_neto",
+        "fob_miles_usd",
+        "fob_usd"
+      ],
+      "rows": 543,
+      "schema_json": "{\"fields\":[{\"metadata\":{},\"name\":\"periodo\",\"nullable\":true,\"type\":\"string\"},{\"metadata\":{},\"name\":\"fecha_periodo\",\"nullable\":true,\"type\":\"date\"},{\"metadata\":{},\"name\":\"anio\",\"nullable\":true,\"type\":\"integer\"},{\"metadata\":{},\"name\":\"mes_numero\",\"nullable\":true,\"type\":\"integer\"},{\"metadata\":{},\"name\":\"codigo_nivel3\",\"nullable\":true,\"type\":\"string\"},{\"metadata\":{},\"name\":\"nivel3\",\"nullable\":true,\"type\":\"string\"},{\"metadata\":{},\"name\":\"codigo_producto_principal\",\"nullable\":true,\"type\":\"string\"},{\"metadata\":{},\"name\":\"producto_principal\",\"nullable\":true,\"type\":\"string\"},{\"metadata\":{},\"name\":\"codigo_subpartida\",\"nullable\":true,\"type\":\"string\"},{\"metadata\":{},\"name\":\"subpartida\",\"nullable\":true,\"type\":\"string\"},{\"metadata\":{},\"name\":\"toneladas_metricas_peso_neto\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"fob_miles_usd\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"fob_usd\",\"nullable\":true,\"type\":\"double\"}],\"type\":\"struct\"}",
+      "schema_sha256": "1ddbe3beb87b946384fa1665ee08c8703d3f44781ba9f221f232c4763009f213",
+      "sha256_canonical": "a859795fbb504567e2c6504e0cdfc768b521b70ad77c7c6858acec60353b94c4",
+      "table_ref": "camaronera_2026.plata.bce_exportaciones_camaron_subpartida"
+    },
+    "cna_gold_destinos": {
+      "canonical_columns": [
+        "anio",
+        "corte",
+        "destino",
+        "destino_fuente",
+        "dif_variacion_dolares",
+        "dif_variacion_libras",
+        "dolares",
+        "libras",
+        "nivel_destino",
+        "participacion_libras",
+        "participacion_libras_fuente",
+        "precio_promedio_usd_lb",
+        "ranking_dolares",
+        "ranking_libras",
+        "validacion_variacion_dolares",
+        "validacion_variacion_libras",
+        "variacion_dolares_fuente",
+        "variacion_libras_fuente",
+        "variacion_yoy_dolares",
+        "variacion_yoy_libras"
+      ],
+      "columns": [
+        "destino_fuente",
+        "destino",
+        "nivel_destino",
+        "corte",
+        "anio",
+        "libras",
+        "dolares",
+        "precio_promedio_usd_lb",
+        "participacion_libras",
+        "ranking_dolares",
+        "ranking_libras",
+        "variacion_yoy_libras",
+        "variacion_yoy_dolares",
+        "variacion_libras_fuente",
+        "variacion_dolares_fuente",
+        "participacion_libras_fuente",
+        "dif_variacion_libras",
+        "dif_variacion_dolares",
+        "validacion_variacion_libras",
+        "validacion_variacion_dolares"
+      ],
+      "rows": 306,
+      "schema_json": "{\"fields\":[{\"metadata\":{},\"name\":\"destino_fuente\",\"nullable\":true,\"type\":\"string\"},{\"metadata\":{},\"name\":\"destino\",\"nullable\":true,\"type\":\"string\"},{\"metadata\":{},\"name\":\"nivel_destino\",\"nullable\":true,\"type\":\"string\"},{\"metadata\":{},\"name\":\"corte\",\"nullable\":true,\"type\":\"string\"},{\"metadata\":{},\"name\":\"anio\",\"nullable\":true,\"type\":\"integer\"},{\"metadata\":{},\"name\":\"libras\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"dolares\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"precio_promedio_usd_lb\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"participacion_libras\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"ranking_dolares\",\"nullable\":true,\"type\":\"integer\"},{\"metadata\":{},\"name\":\"ranking_libras\",\"nullable\":true,\"type\":\"integer\"},{\"metadata\":{},\"name\":\"variacion_yoy_libras\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"variacion_yoy_dolares\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"variacion_libras_fuente\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"variacion_dolares_fuente\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"participacion_libras_fuente\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"dif_variacion_libras\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"dif_variacion_dolares\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"validacion_variacion_libras\",\"nullable\":true,\"type\":\"string\"},{\"metadata\":{},\"name\":\"validacion_variacion_dolares\",\"nullable\":true,\"type\":\"string\"}],\"type\":\"struct\"}",
+      "schema_sha256": "f491a6077b2b2873950e6ff76770e30f98a3dece4007ccde7a1753f4c86b6413",
+      "sha256_canonical": "0d69948326d13100089a18681d37a8ce27e7f30dc428f2bf1ddad6fb50511c39",
+      "table_ref": "camaronera_2026.oro.cna_serving_mercados"
+    },
+    "cna_gold_nacional": {
+      "canonical_columns": [
+        "anio",
+        "anio_mes",
+        "dolares",
+        "estado_reconciliacion",
+        "fecha_periodo",
+        "fuente_dolares",
+        "fuente_libras",
+        "libras",
+        "mes_nombre",
+        "mes_numero",
+        "precio_promedio_usd_lb",
+        "semestre",
+        "trimestre",
+        "variacion_mom_dolares",
+        "variacion_mom_libras",
+        "variacion_yoy_dolares",
+        "variacion_yoy_libras"
+      ],
+      "columns": [
+        "fecha_periodo",
+        "anio",
+        "mes_numero",
+        "mes_nombre",
+        "anio_mes",
+        "trimestre",
+        "semestre",
+        "libras",
+        "dolares",
+        "precio_promedio_usd_lb",
+        "variacion_mom_libras",
+        "variacion_mom_dolares",
+        "variacion_yoy_libras",
+        "variacion_yoy_dolares",
+        "fuente_libras",
+        "fuente_dolares",
+        "estado_reconciliacion"
+      ],
+      "rows": 389,
+      "schema_json": "{\"fields\":[{\"metadata\":{},\"name\":\"fecha_periodo\",\"nullable\":true,\"type\":\"date\"},{\"metadata\":{},\"name\":\"anio\",\"nullable\":true,\"type\":\"integer\"},{\"metadata\":{},\"name\":\"mes_numero\",\"nullable\":true,\"type\":\"integer\"},{\"metadata\":{},\"name\":\"mes_nombre\",\"nullable\":true,\"type\":\"string\"},{\"metadata\":{},\"name\":\"anio_mes\",\"nullable\":true,\"type\":\"string\"},{\"metadata\":{},\"name\":\"trimestre\",\"nullable\":true,\"type\":\"integer\"},{\"metadata\":{},\"name\":\"semestre\",\"nullable\":true,\"type\":\"integer\"},{\"metadata\":{},\"name\":\"libras\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"dolares\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"precio_promedio_usd_lb\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"variacion_mom_libras\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"variacion_mom_dolares\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"variacion_yoy_libras\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"variacion_yoy_dolares\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"fuente_libras\",\"nullable\":true,\"type\":\"string\"},{\"metadata\":{},\"name\":\"fuente_dolares\",\"nullable\":true,\"type\":\"string\"},{\"metadata\":{},\"name\":\"estado_reconciliacion\",\"nullable\":true,\"type\":\"string\"}],\"type\":\"struct\"}",
+      "schema_sha256": "cc3cc88b41c9d5702fae0e08376271aa4aad2815f99fddfe5dfe828a0f3d0a12",
+      "sha256_canonical": "7f6c40af418da7faea5599e3844feaa467715b73d5938213b6ff4e649899c149",
+      "table_ref": "camaronera_2026.oro.cna_serving_nacional_mensual"
+    },
+    "cna_gold_regiones": {
+      "canonical_columns": [
+        "anio",
+        "corte",
+        "destino",
+        "destino_fuente",
+        "dolares",
+        "libras",
+        "nivel_destino",
+        "precio_promedio_usd_lb",
+        "ranking_dolares_regional",
+        "ranking_libras_regional",
+        "uso_analitico",
+        "variacion_yoy_dolares",
+        "variacion_yoy_libras"
+      ],
+      "columns": [
+        "destino_fuente",
+        "destino",
+        "nivel_destino",
+        "corte",
+        "anio",
+        "libras",
+        "dolares",
+        "precio_promedio_usd_lb",
+        "ranking_libras_regional",
+        "ranking_dolares_regional",
+        "variacion_yoy_libras",
+        "variacion_yoy_dolares",
+        "uso_analitico"
+      ],
+      "rows": 16,
+      "schema_json": "{\"fields\":[{\"metadata\":{},\"name\":\"destino_fuente\",\"nullable\":true,\"type\":\"string\"},{\"metadata\":{},\"name\":\"destino\",\"nullable\":true,\"type\":\"string\"},{\"metadata\":{},\"name\":\"nivel_destino\",\"nullable\":true,\"type\":\"string\"},{\"metadata\":{},\"name\":\"corte\",\"nullable\":true,\"type\":\"string\"},{\"metadata\":{},\"name\":\"anio\",\"nullable\":true,\"type\":\"integer\"},{\"metadata\":{},\"name\":\"libras\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"dolares\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"precio_promedio_usd_lb\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"ranking_libras_regional\",\"nullable\":true,\"type\":\"integer\"},{\"metadata\":{},\"name\":\"ranking_dolares_regional\",\"nullable\":true,\"type\":\"integer\"},{\"metadata\":{},\"name\":\"variacion_yoy_libras\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"variacion_yoy_dolares\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"uso_analitico\",\"nullable\":true,\"type\":\"string\"}],\"type\":\"struct\"}",
+      "schema_sha256": "23e00d26debb6369271d3d7033217d7241666cf9bf94eae2825ca868798ba59e",
+      "sha256_canonical": "8f35042ed52c473136724ea01b6f31f2356e4db685055512b34566113722b089",
+      "table_ref": "camaronera_2026.oro.cna_serving_regiones_agregadas"
+    },
+    "cna_silver_acumuladas_historico": {
+      "canonical_columns": [
+        "dolares",
+        "dolares_variacion",
+        "libras",
+        "libras_variacion",
+        "periodo"
+      ],
+      "columns": [
+        "periodo",
+        "libras",
+        "dolares",
+        "libras_variacion",
+        "dolares_variacion"
+      ],
+      "rows": 7,
+      "schema_json": "{\"fields\":[{\"metadata\":{},\"name\":\"periodo\",\"nullable\":true,\"type\":\"string\"},{\"metadata\":{},\"name\":\"libras\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"dolares\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"libras_variacion\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"dolares_variacion\",\"nullable\":true,\"type\":\"double\"}],\"type\":\"struct\"}",
+      "schema_sha256": "b3db6bb5c8db8457ef794ac0ff425700e5f1c2afa17be7184c0aca3da01b449c",
+      "sha256_canonical": "d7d2bd10573cfeff2d207a664e1cfe252897599a33790027459b96ec90cc3e87",
+      "table_ref": "camaronera_2026.plata.exportaciones_acumuladas_historico"
+    },
+    "cna_silver_exportaciones_mensuales": {
+      "canonical_columns": [
+        "anio",
+        "dolares",
+        "fecha_periodo",
+        "libras",
+        "mes_numero",
+        "precio_promedio"
+      ],
+      "columns": [
+        "fecha_periodo",
+        "anio",
+        "mes_numero",
+        "libras",
+        "dolares",
+        "precio_promedio"
+      ],
+      "rows": 113,
+      "schema_json": "{\"fields\":[{\"metadata\":{},\"name\":\"fecha_periodo\",\"nullable\":true,\"type\":\"date\"},{\"metadata\":{},\"name\":\"anio\",\"nullable\":true,\"type\":\"integer\"},{\"metadata\":{},\"name\":\"mes_numero\",\"nullable\":true,\"type\":\"integer\"},{\"metadata\":{},\"name\":\"libras\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"dolares\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"precio_promedio\",\"nullable\":true,\"type\":\"double\"}],\"type\":\"struct\"}",
+      "schema_sha256": "eccb3b4fa6dbe40451c1ece1f9b654d7dc5aaf2d883465770c454abe0f336860",
+      "sha256_canonical": "4288cd054ff06bb5ba09c64595ce8c58e6c1459ce8b7c98e8bfdc3aff926a02f",
+      "table_ref": "camaronera_2026.plata.exportaciones_mensuales"
+    },
+    "cna_silver_exportaciones_mensuales_dolares": {
+      "canonical_columns": [
+        "anio",
+        "fecha_periodo",
+        "mes_numero",
+        "valor"
+      ],
+      "columns": [
+        "fecha_periodo",
+        "anio",
+        "mes_numero",
+        "valor"
+      ],
+      "rows": 389,
+      "schema_json": "{\"fields\":[{\"metadata\":{},\"name\":\"fecha_periodo\",\"nullable\":true,\"type\":\"date\"},{\"metadata\":{},\"name\":\"anio\",\"nullable\":true,\"type\":\"integer\"},{\"metadata\":{},\"name\":\"mes_numero\",\"nullable\":true,\"type\":\"integer\"},{\"metadata\":{},\"name\":\"valor\",\"nullable\":true,\"type\":\"double\"}],\"type\":\"struct\"}",
+      "schema_sha256": "36499a8416e0d0577134f81df452cbd41b8efac3c4e61c6017695d99175b7f3d",
+      "sha256_canonical": "df14c8b6ce268d5fbe83f9ba59a33e8397d3da44e054b32536933ea1ff127b62",
+      "table_ref": "camaronera_2026.plata.exportaciones_mensuales_dolares_normalizada"
+    },
+    "cna_silver_exportaciones_mensuales_libras": {
+      "canonical_columns": [
+        "anio",
+        "fecha_periodo",
+        "mes_numero",
+        "valor"
+      ],
+      "columns": [
+        "fecha_periodo",
+        "anio",
+        "mes_numero",
+        "valor"
+      ],
+      "rows": 389,
+      "schema_json": "{\"fields\":[{\"metadata\":{},\"name\":\"fecha_periodo\",\"nullable\":true,\"type\":\"date\"},{\"metadata\":{},\"name\":\"anio\",\"nullable\":true,\"type\":\"integer\"},{\"metadata\":{},\"name\":\"mes_numero\",\"nullable\":true,\"type\":\"integer\"},{\"metadata\":{},\"name\":\"valor\",\"nullable\":true,\"type\":\"double\"}],\"type\":\"struct\"}",
+      "schema_sha256": "36499a8416e0d0577134f81df452cbd41b8efac3c4e61c6017695d99175b7f3d",
+      "sha256_canonical": "e897afdfb42d7ee0a7a4bdf383117e5e88cef13d750840c815431ec39203d1c8",
+      "table_ref": "camaronera_2026.plata.exportaciones_mensuales_libras_normalizada"
+    },
+    "cna_silver_mayo_historico": {
+      "canonical_columns": [
+        "anio",
+        "dolares",
+        "dolares_variacion",
+        "libras",
+        "libras_variacion"
+      ],
+      "columns": [
+        "anio",
+        "libras",
+        "dolares",
+        "libras_variacion",
+        "dolares_variacion"
+      ],
+      "rows": 7,
+      "schema_json": "{\"fields\":[{\"metadata\":{},\"name\":\"anio\",\"nullable\":true,\"type\":\"integer\"},{\"metadata\":{},\"name\":\"libras\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"dolares\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"libras_variacion\",\"nullable\":true,\"type\":\"double\"},{\"metadata\":{},\"name\":\"dolares_variacion\",\"nullable\":true,\"type\":\"double\"}],\"type\":\"struct\"}",
+      "schema_sha256": "b818bcf127d65d02ddece7b0a54f1a8a600be5b91b98d1bc8370ae5bc6e03a84",
+      "sha256_canonical": "993ece04fbcdaf80362b6102dc36676ecd1c38cbfce618e1a10522b92517d24f",
+      "table_ref": "camaronera_2026.plata.exportaciones_mayo_historico"
+    },
+    "cna_silver_mercado_acumulado": {
+      "canonical_columns": [
+        "indicador",
+        "pais",
+        "valor"
+      ],
+      "columns": [
+        "pais",
+        "indicador",
+        "valor"
+      ],
+      "rows": 589,
+      "schema_json": "{\"fields\":[{\"metadata\":{},\"name\":\"pais\",\"nullable\":true,\"type\":\"string\"},{\"metadata\":{},\"name\":\"indicador\",\"nullable\":true,\"type\":\"string\"},{\"metadata\":{},\"name\":\"valor\",\"nullable\":true,\"type\":\"double\"}],\"type\":\"struct\"}",
+      "schema_sha256": "a3ff04db4792370d6c011f21404c2ded63a14d28f725d174f6c3bc00d4412e7d",
+      "sha256_canonical": "aa5bd00f521b90bf99280639653f01b8d7c501fcb467c956e5a1ba1f82360e3c",
+      "table_ref": "camaronera_2026.plata.mercado_pais_acumulado_normalizado"
+    },
+    "cna_silver_mercado_mayo": {
+      "canonical_columns": [
+        "indicador",
+        "pais",
+        "valor"
+      ],
+      "columns": [
+        "pais",
+        "indicador",
+        "valor"
+      ],
+      "rows": 512,
+      "schema_json": "{\"fields\":[{\"metadata\":{},\"name\":\"pais\",\"nullable\":true,\"type\":\"string\"},{\"metadata\":{},\"name\":\"indicador\",\"nullable\":true,\"type\":\"string\"},{\"metadata\":{},\"name\":\"valor\",\"nullable\":true,\"type\":\"double\"}],\"type\":\"struct\"}",
+      "schema_sha256": "a3ff04db4792370d6c011f21404c2ded63a14d28f725d174f6c3bc00d4412e7d",
+      "sha256_canonical": "1bd76114213432e6f4126406066cb583d46334a1453defcee76eec3b49889ca3",
+      "table_ref": "camaronera_2026.plata.mercado_pais_mayo_normalizado"
+    }
+  },
+  "test_schema_version": "2.0"
+}

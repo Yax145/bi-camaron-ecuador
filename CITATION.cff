@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Si utiliza este repositorio, cite el artículo asociado y este software."
+title: "BI Camarón Ecuador"
+type: software
+version: "1.0.0"
+authors:
+  - family-names: "REEMPLAZAR"
+    given-names: "AUTORES DEL ARTICULO"
+repository-code: "https://github.com/REEMPLAZAR_OWNER/bi-camaron-ecuador"
+url: "https://github.com/REEMPLAZAR_OWNER/bi-camaron-ecuador"
+license: MIT

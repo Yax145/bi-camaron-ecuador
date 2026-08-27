@@ -1,0 +1,1036 @@
+{
+  "baseline_A_path": "/Volumes/camaronera_2026/oro/entregables/reproducibilidad_final_v2/baseline_A.json",
+  "baseline_A_run_ids": {
+    "bce_gold": "20260827T124906875051Z",
+    "bce_silver": "20260827T124736884951Z",
+    "cna_gold": "20260827T125230400782Z",
+    "cna_silver": "20260827T124741277943Z"
+  },
+  "checks": [
+    {
+      "baseline_A": "20260827T124741277943Z",
+      "check": "cna_silver.run_id_changed",
+      "run_B": "20260827T134516245828Z",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "20260827T125230400782Z",
+      "check": "cna_gold.run_id_changed",
+      "run_B": "20260827T143120253287Z",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "20260827T124736884951Z",
+      "check": "bce_silver.run_id_changed",
+      "run_B": "20260827T144407742305Z",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "20260827T124906875051Z",
+      "check": "bce_gold.run_id_changed",
+      "run_B": "20260827T144519249191Z",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "1217b296e50e37f8aafd045079d79119a4123cf0805e0c01b1636f62c10613a1",
+      "check": "CNA.input_snapshot_sha256",
+      "run_B": "1217b296e50e37f8aafd045079d79119a4123cf0805e0c01b1636f62c10613a1",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "2cb48f6bb83c56f6924d8f8233d03be2115b2e0d3000e3a359bccd25c8157672",
+      "check": "BCE.input_snapshot_sha256",
+      "run_B": "2cb48f6bb83c56f6924d8f8233d03be2115b2e0d3000e3a359bccd25c8157672",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "9981eefea1c5367f457d69fe1fb0c692bdcd446ffa62a6951b601ace2155439d",
+      "check": "cna_silver.config_sha256",
+      "run_B": "9981eefea1c5367f457d69fe1fb0c692bdcd446ffa62a6951b601ace2155439d",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "4bcc7b929295487e89a7545e5743e112dd95ff05ca25e908d4fb190749628aff",
+      "check": "cna_gold.config_sha256",
+      "run_B": "4bcc7b929295487e89a7545e5743e112dd95ff05ca25e908d4fb190749628aff",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "94986aac3f99e3dedd54d75191459a839666e75c073235484c33f2f50630c3c8",
+      "check": "bce_gold.config_sha256",
+      "run_B": "94986aac3f99e3dedd54d75191459a839666e75c073235484c33f2f50630c3c8",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "210dde5c49742b69e7dca8890da4a0632efe600550e8ed0b92d20b9b72c3afe7",
+      "check": "bce_silver.config_contract_sha256",
+      "run_B": "210dde5c49742b69e7dca8890da4a0632efe600550e8ed0b92d20b9b72c3afe7",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "2.1.0",
+      "check": "cna_silver.pipeline_version",
+      "run_B": "2.1.0",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "0a88dd57201d3c5a242af41e28167014c0f71717a5a3d551c5866ca4bf09a836",
+      "check": "cna_silver.environment_sha256",
+      "run_B": "0a88dd57201d3c5a242af41e28167014c0f71717a5a3d551c5866ca4bf09a836",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "2.1",
+      "check": "cna_gold.pipeline_version",
+      "run_B": "2.1",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "0a88dd57201d3c5a242af41e28167014c0f71717a5a3d551c5866ca4bf09a836",
+      "check": "cna_gold.environment_sha256",
+      "run_B": "0a88dd57201d3c5a242af41e28167014c0f71717a5a3d551c5866ca4bf09a836",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "2.1.0",
+      "check": "bce_silver.pipeline_version",
+      "run_B": "2.1.0",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "0a88dd57201d3c5a242af41e28167014c0f71717a5a3d551c5866ca4bf09a836",
+      "check": "bce_silver.environment_sha256",
+      "run_B": "0a88dd57201d3c5a242af41e28167014c0f71717a5a3d551c5866ca4bf09a836",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "2.1",
+      "check": "bce_gold.pipeline_version",
+      "run_B": "2.1",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "0a88dd57201d3c5a242af41e28167014c0f71717a5a3d551c5866ca4bf09a836",
+      "check": "bce_gold.environment_sha256",
+      "run_B": "0a88dd57201d3c5a242af41e28167014c0f71717a5a3d551c5866ca4bf09a836",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": [
+        "bce_gold_dim_fecha",
+        "bce_gold_dim_producto",
+        "bce_gold_dim_subpartida",
+        "bce_gold_fact_exportaciones",
+        "bce_gold_indicadores_kpi",
+        "bce_gold_resumen_anual",
+        "bce_gold_resumen_mensual",
+        "bce_gold_serving_tableau",
+        "bce_silver_exportaciones",
+        "cna_gold_destinos",
+        "cna_gold_nacional",
+        "cna_gold_regiones",
+        "cna_silver_acumuladas_historico",
+        "cna_silver_exportaciones_mensuales",
+        "cna_silver_exportaciones_mensuales_dolares",
+        "cna_silver_exportaciones_mensuales_libras",
+        "cna_silver_mayo_historico",
+        "cna_silver_mercado_acumulado",
+        "cna_silver_mercado_mayo"
+      ],
+      "check": "table_set",
+      "run_B": [
+        "bce_gold_dim_fecha",
+        "bce_gold_dim_producto",
+        "bce_gold_dim_subpartida",
+        "bce_gold_fact_exportaciones",
+        "bce_gold_indicadores_kpi",
+        "bce_gold_resumen_anual",
+        "bce_gold_resumen_mensual",
+        "bce_gold_serving_tableau",
+        "bce_silver_exportaciones",
+        "cna_gold_destinos",
+        "cna_gold_nacional",
+        "cna_gold_regiones",
+        "cna_silver_acumuladas_historico",
+        "cna_silver_exportaciones_mensuales",
+        "cna_silver_exportaciones_mensuales_dolares",
+        "cna_silver_exportaciones_mensuales_libras",
+        "cna_silver_mayo_historico",
+        "cna_silver_mercado_acumulado",
+        "cna_silver_mercado_mayo"
+      ],
+      "status": "PASS"
+    },
+    {
+      "baseline_A": 66,
+      "check": "bce_gold_dim_fecha.rows",
+      "run_B": 66,
+      "status": "PASS"
+    },
+    {
+      "baseline_A": [
+        "fecha_key",
+        "fecha",
+        "anio",
+        "mes_numero",
+        "mes_nombre",
+        "anio_mes",
+        "trimestre",
+        "semestre"
+      ],
+      "check": "bce_gold_dim_fecha.columns",
+      "run_B": [
+        "fecha_key",
+        "fecha",
+        "anio",
+        "mes_numero",
+        "mes_nombre",
+        "anio_mes",
+        "trimestre",
+        "semestre"
+      ],
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "a2cb72bdc7fb53df1559c470422c26f68db19fcd514c68bae16fcc86baa2d323",
+      "check": "bce_gold_dim_fecha.schema_sha256",
+      "run_B": "a2cb72bdc7fb53df1559c470422c26f68db19fcd514c68bae16fcc86baa2d323",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "5b3210a0c3f404f6d930463cab9bc740d29bd7599b2eafd4f8fb48f587aa3230",
+      "check": "bce_gold_dim_fecha.sha256_canonical",
+      "run_B": "5b3210a0c3f404f6d930463cab9bc740d29bd7599b2eafd4f8fb48f587aa3230",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": 1,
+      "check": "bce_gold_dim_producto.rows",
+      "run_B": 1,
+      "status": "PASS"
+    },
+    {
+      "baseline_A": [
+        "producto_key",
+        "codigo_nivel3",
+        "nivel3",
+        "codigo_producto_principal",
+        "producto_principal"
+      ],
+      "check": "bce_gold_dim_producto.columns",
+      "run_B": [
+        "producto_key",
+        "codigo_nivel3",
+        "nivel3",
+        "codigo_producto_principal",
+        "producto_principal"
+      ],
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "2836c07a6d9d27f2e9cd975da536960516039fdfaf7e0f7952881bf3edc12d30",
+      "check": "bce_gold_dim_producto.schema_sha256",
+      "run_B": "2836c07a6d9d27f2e9cd975da536960516039fdfaf7e0f7952881bf3edc12d30",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "b8e845a6f47acefad5e6ee2e25e6403c4a55ee8fd8e0e4a63bf6a89651d3388f",
+      "check": "bce_gold_dim_producto.sha256_canonical",
+      "run_B": "b8e845a6f47acefad5e6ee2e25e6403c4a55ee8fd8e0e4a63bf6a89651d3388f",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": 14,
+      "check": "bce_gold_dim_subpartida.rows",
+      "run_B": 14,
+      "status": "PASS"
+    },
+    {
+      "baseline_A": [
+        "subpartida_key",
+        "codigo_subpartida",
+        "subpartida_oficial",
+        "subpartida_corta",
+        "codigo_producto_principal"
+      ],
+      "check": "bce_gold_dim_subpartida.columns",
+      "run_B": [
+        "subpartida_key",
+        "codigo_subpartida",
+        "subpartida_oficial",
+        "subpartida_corta",
+        "codigo_producto_principal"
+      ],
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "f3cd3b1c0b7e676e351c51013d09ba4746c56434b4bca63d8b2ccff3a736782e",
+      "check": "bce_gold_dim_subpartida.schema_sha256",
+      "run_B": "f3cd3b1c0b7e676e351c51013d09ba4746c56434b4bca63d8b2ccff3a736782e",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "4e6064b5bc09b5f3ca2bae6558b73fe66783f495102a3aa2140363d4fb8e3d36",
+      "check": "bce_gold_dim_subpartida.sha256_canonical",
+      "run_B": "4e6064b5bc09b5f3ca2bae6558b73fe66783f495102a3aa2140363d4fb8e3d36",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": 543,
+      "check": "bce_gold_fact_exportaciones.rows",
+      "run_B": 543,
+      "status": "PASS"
+    },
+    {
+      "baseline_A": [
+        "fecha_key",
+        "producto_key",
+        "subpartida_key",
+        "toneladas_metricas_peso_neto",
+        "fob_miles_usd",
+        "fob_usd",
+        "precio_subpartida_usd_kg"
+      ],
+      "check": "bce_gold_fact_exportaciones.columns",
+      "run_B": [
+        "fecha_key",
+        "producto_key",
+        "subpartida_key",
+        "toneladas_metricas_peso_neto",
+        "fob_miles_usd",
+        "fob_usd",
+        "precio_subpartida_usd_kg"
+      ],
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "0b2c561e1a96045eaaf7bede2fc721f719b59842b4fe507415eee31ed9d58545",
+      "check": "bce_gold_fact_exportaciones.schema_sha256",
+      "run_B": "0b2c561e1a96045eaaf7bede2fc721f719b59842b4fe507415eee31ed9d58545",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "70a205a56a58a81569a279f3225b1320be7a7a17b7624e6fde7bd77c8d99a9f5",
+      "check": "bce_gold_fact_exportaciones.sha256_canonical",
+      "run_B": "70a205a56a58a81569a279f3225b1320be7a7a17b7624e6fde7bd77c8d99a9f5",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": 1,
+      "check": "bce_gold_indicadores_kpi.rows",
+      "run_B": 1,
+      "status": "PASS"
+    },
+    {
+      "baseline_A": [
+        "periodo_min",
+        "periodo_max",
+        "periodos_disponibles",
+        "subpartidas_disponibles",
+        "toneladas_metricas_total_historico",
+        "fob_usd_total_historico",
+        "tm_ultimo_periodo",
+        "fob_usd_ultimo_periodo",
+        "variacion_yoy_tm_ultimo_mes_comparable",
+        "variacion_yoy_fob_ultimo_mes_comparable",
+        "codigo_subpartida_top_fob_ultimo_periodo",
+        "subpartida_top_fob_ultimo_periodo"
+      ],
+      "check": "bce_gold_indicadores_kpi.columns",
+      "run_B": [
+        "periodo_min",
+        "periodo_max",
+        "periodos_disponibles",
+        "subpartidas_disponibles",
+        "toneladas_metricas_total_historico",
+        "fob_usd_total_historico",
+        "tm_ultimo_periodo",
+        "fob_usd_ultimo_periodo",
+        "variacion_yoy_tm_ultimo_mes_comparable",
+        "variacion_yoy_fob_ultimo_mes_comparable",
+        "codigo_subpartida_top_fob_ultimo_periodo",
+        "subpartida_top_fob_ultimo_periodo"
+      ],
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "cbd578b6eb7aa3bb11ac06ae4c9c8cb33c0d0264e26a084cb0c022ce46e94596",
+      "check": "bce_gold_indicadores_kpi.schema_sha256",
+      "run_B": "cbd578b6eb7aa3bb11ac06ae4c9c8cb33c0d0264e26a084cb0c022ce46e94596",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "89308ae23b816b82141edffc10e56304ba6430568fb71ab9bda142fa818d4a19",
+      "check": "bce_gold_indicadores_kpi.sha256_canonical",
+      "run_B": "89308ae23b816b82141edffc10e56304ba6430568fb71ab9bda142fa818d4a19",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": 6,
+      "check": "bce_gold_resumen_anual.rows",
+      "run_B": 6,
+      "status": "PASS"
+    },
+    {
+      "baseline_A": [
+        "anio",
+        "toneladas_metricas_totales",
+        "fob_total_miles_usd",
+        "fob_total_usd",
+        "meses_reportados",
+        "anio_completo",
+        "precio_promedio_ponderado_usd_kg",
+        "variacion_yoy_tm_anual",
+        "variacion_yoy_fob_anual"
+      ],
+      "check": "bce_gold_resumen_anual.columns",
+      "run_B": [
+        "anio",
+        "toneladas_metricas_totales",
+        "fob_total_miles_usd",
+        "fob_total_usd",
+        "meses_reportados",
+        "anio_completo",
+        "precio_promedio_ponderado_usd_kg",
+        "variacion_yoy_tm_anual",
+        "variacion_yoy_fob_anual"
+      ],
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "f39dc2aa30232bfdcaa4b93b5d7585912ac2c4d889e557a0256397f3fd087728",
+      "check": "bce_gold_resumen_anual.schema_sha256",
+      "run_B": "f39dc2aa30232bfdcaa4b93b5d7585912ac2c4d889e557a0256397f3fd087728",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "daf5e45e0a31abbd214c829720861ec3253fdcefd912eac7832875c40c0ddc9c",
+      "check": "bce_gold_resumen_anual.sha256_canonical",
+      "run_B": "daf5e45e0a31abbd214c829720861ec3253fdcefd912eac7832875c40c0ddc9c",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": 66,
+      "check": "bce_gold_resumen_mensual.rows",
+      "run_B": 66,
+      "status": "PASS"
+    },
+    {
+      "baseline_A": [
+        "fecha_key",
+        "fecha_periodo",
+        "anio",
+        "mes_numero",
+        "mes_nombre",
+        "anio_mes",
+        "trimestre",
+        "semestre",
+        "toneladas_metricas_totales",
+        "fob_total_miles_usd",
+        "fob_total_usd",
+        "subpartidas_reportadas",
+        "precio_promedio_ponderado_usd_kg"
+      ],
+      "check": "bce_gold_resumen_mensual.columns",
+      "run_B": [
+        "fecha_key",
+        "fecha_periodo",
+        "anio",
+        "mes_numero",
+        "mes_nombre",
+        "anio_mes",
+        "trimestre",
+        "semestre",
+        "toneladas_metricas_totales",
+        "fob_total_miles_usd",
+        "fob_total_usd",
+        "subpartidas_reportadas",
+        "precio_promedio_ponderado_usd_kg"
+      ],
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "d4c44a569a7d48e89253d81fb104468c9cff02cbe1982503f1997b16049963c1",
+      "check": "bce_gold_resumen_mensual.schema_sha256",
+      "run_B": "d4c44a569a7d48e89253d81fb104468c9cff02cbe1982503f1997b16049963c1",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "a6b0ec7cf3837f825ba9606cdba3456993898fac82e0b73b3b0918912c765dd4",
+      "check": "bce_gold_resumen_mensual.sha256_canonical",
+      "run_B": "a6b0ec7cf3837f825ba9606cdba3456993898fac82e0b73b3b0918912c765dd4",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": 543,
+      "check": "bce_gold_serving_tableau.rows",
+      "run_B": 543,
+      "status": "PASS"
+    },
+    {
+      "baseline_A": [
+        "fecha_periodo",
+        "periodo",
+        "anio",
+        "mes_numero",
+        "mes_nombre",
+        "anio_mes",
+        "trimestre",
+        "semestre",
+        "meses_reportados",
+        "cobertura_anio",
+        "es_ultimo_periodo_disponible",
+        "codigo_nivel3",
+        "nivel3",
+        "codigo_producto_principal",
+        "producto_principal",
+        "codigo_subpartida",
+        "subpartida",
+        "toneladas_metricas_peso_neto",
+        "fob_miles_usd",
+        "fob_usd",
+        "precio_subpartida_usd_kg",
+        "participacion_tm_mes",
+        "participacion_fob_mes",
+        "ranking_tm_mes",
+        "ranking_fob_mes",
+        "tm_prev_anio_mismo_mes_subpartida",
+        "fob_usd_prev_anio_mismo_mes_subpartida",
+        "variacion_yoy_tm_subpartida",
+        "variacion_yoy_fob_subpartida"
+      ],
+      "check": "bce_gold_serving_tableau.columns",
+      "run_B": [
+        "fecha_periodo",
+        "periodo",
+        "anio",
+        "mes_numero",
+        "mes_nombre",
+        "anio_mes",
+        "trimestre",
+        "semestre",
+        "meses_reportados",
+        "cobertura_anio",
+        "es_ultimo_periodo_disponible",
+        "codigo_nivel3",
+        "nivel3",
+        "codigo_producto_principal",
+        "producto_principal",
+        "codigo_subpartida",
+        "subpartida",
+        "toneladas_metricas_peso_neto",
+        "fob_miles_usd",
+        "fob_usd",
+        "precio_subpartida_usd_kg",
+        "participacion_tm_mes",
+        "participacion_fob_mes",
+        "ranking_tm_mes",
+        "ranking_fob_mes",
+        "tm_prev_anio_mismo_mes_subpartida",
+        "fob_usd_prev_anio_mismo_mes_subpartida",
+        "variacion_yoy_tm_subpartida",
+        "variacion_yoy_fob_subpartida"
+      ],
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "090c6f47052906901a2131d94fbfd182d46e25a4e11f0c020e9532d8e6d1d237",
+      "check": "bce_gold_serving_tableau.schema_sha256",
+      "run_B": "090c6f47052906901a2131d94fbfd182d46e25a4e11f0c020e9532d8e6d1d237",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "faddf4f0a0147727a65fd6a0140a432777984ba60cc50302e4a950c30a95623a",
+      "check": "bce_gold_serving_tableau.sha256_canonical",
+      "run_B": "faddf4f0a0147727a65fd6a0140a432777984ba60cc50302e4a950c30a95623a",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": 543,
+      "check": "bce_silver_exportaciones.rows",
+      "run_B": 543,
+      "status": "PASS"
+    },
+    {
+      "baseline_A": [
+        "periodo",
+        "fecha_periodo",
+        "anio",
+        "mes_numero",
+        "codigo_nivel3",
+        "nivel3",
+        "codigo_producto_principal",
+        "producto_principal",
+        "codigo_subpartida",
+        "subpartida",
+        "toneladas_metricas_peso_neto",
+        "fob_miles_usd",
+        "fob_usd"
+      ],
+      "check": "bce_silver_exportaciones.columns",
+      "run_B": [
+        "periodo",
+        "fecha_periodo",
+        "anio",
+        "mes_numero",
+        "codigo_nivel3",
+        "nivel3",
+        "codigo_producto_principal",
+        "producto_principal",
+        "codigo_subpartida",
+        "subpartida",
+        "toneladas_metricas_peso_neto",
+        "fob_miles_usd",
+        "fob_usd"
+      ],
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "1ddbe3beb87b946384fa1665ee08c8703d3f44781ba9f221f232c4763009f213",
+      "check": "bce_silver_exportaciones.schema_sha256",
+      "run_B": "1ddbe3beb87b946384fa1665ee08c8703d3f44781ba9f221f232c4763009f213",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "a859795fbb504567e2c6504e0cdfc768b521b70ad77c7c6858acec60353b94c4",
+      "check": "bce_silver_exportaciones.sha256_canonical",
+      "run_B": "a859795fbb504567e2c6504e0cdfc768b521b70ad77c7c6858acec60353b94c4",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": 306,
+      "check": "cna_gold_destinos.rows",
+      "run_B": 306,
+      "status": "PASS"
+    },
+    {
+      "baseline_A": [
+        "destino_fuente",
+        "destino",
+        "nivel_destino",
+        "corte",
+        "anio",
+        "libras",
+        "dolares",
+        "precio_promedio_usd_lb",
+        "participacion_libras",
+        "ranking_dolares",
+        "ranking_libras",
+        "variacion_yoy_libras",
+        "variacion_yoy_dolares",
+        "variacion_libras_fuente",
+        "variacion_dolares_fuente",
+        "participacion_libras_fuente",
+        "dif_variacion_libras",
+        "dif_variacion_dolares",
+        "validacion_variacion_libras",
+        "validacion_variacion_dolares"
+      ],
+      "check": "cna_gold_destinos.columns",
+      "run_B": [
+        "destino_fuente",
+        "destino",
+        "nivel_destino",
+        "corte",
+        "anio",
+        "libras",
+        "dolares",
+        "precio_promedio_usd_lb",
+        "participacion_libras",
+        "ranking_dolares",
+        "ranking_libras",
+        "variacion_yoy_libras",
+        "variacion_yoy_dolares",
+        "variacion_libras_fuente",
+        "variacion_dolares_fuente",
+        "participacion_libras_fuente",
+        "dif_variacion_libras",
+        "dif_variacion_dolares",
+        "validacion_variacion_libras",
+        "validacion_variacion_dolares"
+      ],
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "f491a6077b2b2873950e6ff76770e30f98a3dece4007ccde7a1753f4c86b6413",
+      "check": "cna_gold_destinos.schema_sha256",
+      "run_B": "f491a6077b2b2873950e6ff76770e30f98a3dece4007ccde7a1753f4c86b6413",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "0d69948326d13100089a18681d37a8ce27e7f30dc428f2bf1ddad6fb50511c39",
+      "check": "cna_gold_destinos.sha256_canonical",
+      "run_B": "0d69948326d13100089a18681d37a8ce27e7f30dc428f2bf1ddad6fb50511c39",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": 389,
+      "check": "cna_gold_nacional.rows",
+      "run_B": 389,
+      "status": "PASS"
+    },
+    {
+      "baseline_A": [
+        "fecha_periodo",
+        "anio",
+        "mes_numero",
+        "mes_nombre",
+        "anio_mes",
+        "trimestre",
+        "semestre",
+        "libras",
+        "dolares",
+        "precio_promedio_usd_lb",
+        "variacion_mom_libras",
+        "variacion_mom_dolares",
+        "variacion_yoy_libras",
+        "variacion_yoy_dolares",
+        "fuente_libras",
+        "fuente_dolares",
+        "estado_reconciliacion"
+      ],
+      "check": "cna_gold_nacional.columns",
+      "run_B": [
+        "fecha_periodo",
+        "anio",
+        "mes_numero",
+        "mes_nombre",
+        "anio_mes",
+        "trimestre",
+        "semestre",
+        "libras",
+        "dolares",
+        "precio_promedio_usd_lb",
+        "variacion_mom_libras",
+        "variacion_mom_dolares",
+        "variacion_yoy_libras",
+        "variacion_yoy_dolares",
+        "fuente_libras",
+        "fuente_dolares",
+        "estado_reconciliacion"
+      ],
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "cc3cc88b41c9d5702fae0e08376271aa4aad2815f99fddfe5dfe828a0f3d0a12",
+      "check": "cna_gold_nacional.schema_sha256",
+      "run_B": "cc3cc88b41c9d5702fae0e08376271aa4aad2815f99fddfe5dfe828a0f3d0a12",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "7f6c40af418da7faea5599e3844feaa467715b73d5938213b6ff4e649899c149",
+      "check": "cna_gold_nacional.sha256_canonical",
+      "run_B": "7f6c40af418da7faea5599e3844feaa467715b73d5938213b6ff4e649899c149",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": 16,
+      "check": "cna_gold_regiones.rows",
+      "run_B": 16,
+      "status": "PASS"
+    },
+    {
+      "baseline_A": [
+        "destino_fuente",
+        "destino",
+        "nivel_destino",
+        "corte",
+        "anio",
+        "libras",
+        "dolares",
+        "precio_promedio_usd_lb",
+        "ranking_libras_regional",
+        "ranking_dolares_regional",
+        "variacion_yoy_libras",
+        "variacion_yoy_dolares",
+        "uso_analitico"
+      ],
+      "check": "cna_gold_regiones.columns",
+      "run_B": [
+        "destino_fuente",
+        "destino",
+        "nivel_destino",
+        "corte",
+        "anio",
+        "libras",
+        "dolares",
+        "precio_promedio_usd_lb",
+        "ranking_libras_regional",
+        "ranking_dolares_regional",
+        "variacion_yoy_libras",
+        "variacion_yoy_dolares",
+        "uso_analitico"
+      ],
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "23e00d26debb6369271d3d7033217d7241666cf9bf94eae2825ca868798ba59e",
+      "check": "cna_gold_regiones.schema_sha256",
+      "run_B": "23e00d26debb6369271d3d7033217d7241666cf9bf94eae2825ca868798ba59e",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "8f35042ed52c473136724ea01b6f31f2356e4db685055512b34566113722b089",
+      "check": "cna_gold_regiones.sha256_canonical",
+      "run_B": "8f35042ed52c473136724ea01b6f31f2356e4db685055512b34566113722b089",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": 7,
+      "check": "cna_silver_acumuladas_historico.rows",
+      "run_B": 7,
+      "status": "PASS"
+    },
+    {
+      "baseline_A": [
+        "periodo",
+        "libras",
+        "dolares",
+        "libras_variacion",
+        "dolares_variacion"
+      ],
+      "check": "cna_silver_acumuladas_historico.columns",
+      "run_B": [
+        "periodo",
+        "libras",
+        "dolares",
+        "libras_variacion",
+        "dolares_variacion"
+      ],
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "b3db6bb5c8db8457ef794ac0ff425700e5f1c2afa17be7184c0aca3da01b449c",
+      "check": "cna_silver_acumuladas_historico.schema_sha256",
+      "run_B": "b3db6bb5c8db8457ef794ac0ff425700e5f1c2afa17be7184c0aca3da01b449c",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "d7d2bd10573cfeff2d207a664e1cfe252897599a33790027459b96ec90cc3e87",
+      "check": "cna_silver_acumuladas_historico.sha256_canonical",
+      "run_B": "d7d2bd10573cfeff2d207a664e1cfe252897599a33790027459b96ec90cc3e87",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": 113,
+      "check": "cna_silver_exportaciones_mensuales.rows",
+      "run_B": 113,
+      "status": "PASS"
+    },
+    {
+      "baseline_A": [
+        "fecha_periodo",
+        "anio",
+        "mes_numero",
+        "libras",
+        "dolares",
+        "precio_promedio"
+      ],
+      "check": "cna_silver_exportaciones_mensuales.columns",
+      "run_B": [
+        "fecha_periodo",
+        "anio",
+        "mes_numero",
+        "libras",
+        "dolares",
+        "precio_promedio"
+      ],
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "eccb3b4fa6dbe40451c1ece1f9b654d7dc5aaf2d883465770c454abe0f336860",
+      "check": "cna_silver_exportaciones_mensuales.schema_sha256",
+      "run_B": "eccb3b4fa6dbe40451c1ece1f9b654d7dc5aaf2d883465770c454abe0f336860",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "4288cd054ff06bb5ba09c64595ce8c58e6c1459ce8b7c98e8bfdc3aff926a02f",
+      "check": "cna_silver_exportaciones_mensuales.sha256_canonical",
+      "run_B": "4288cd054ff06bb5ba09c64595ce8c58e6c1459ce8b7c98e8bfdc3aff926a02f",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": 389,
+      "check": "cna_silver_exportaciones_mensuales_dolares.rows",
+      "run_B": 389,
+      "status": "PASS"
+    },
+    {
+      "baseline_A": [
+        "fecha_periodo",
+        "anio",
+        "mes_numero",
+        "valor"
+      ],
+      "check": "cna_silver_exportaciones_mensuales_dolares.columns",
+      "run_B": [
+        "fecha_periodo",
+        "anio",
+        "mes_numero",
+        "valor"
+      ],
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "36499a8416e0d0577134f81df452cbd41b8efac3c4e61c6017695d99175b7f3d",
+      "check": "cna_silver_exportaciones_mensuales_dolares.schema_sha256",
+      "run_B": "36499a8416e0d0577134f81df452cbd41b8efac3c4e61c6017695d99175b7f3d",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "df14c8b6ce268d5fbe83f9ba59a33e8397d3da44e054b32536933ea1ff127b62",
+      "check": "cna_silver_exportaciones_mensuales_dolares.sha256_canonical",
+      "run_B": "df14c8b6ce268d5fbe83f9ba59a33e8397d3da44e054b32536933ea1ff127b62",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": 389,
+      "check": "cna_silver_exportaciones_mensuales_libras.rows",
+      "run_B": 389,
+      "status": "PASS"
+    },
+    {
+      "baseline_A": [
+        "fecha_periodo",
+        "anio",
+        "mes_numero",
+        "valor"
+      ],
+      "check": "cna_silver_exportaciones_mensuales_libras.columns",
+      "run_B": [
+        "fecha_periodo",
+        "anio",
+        "mes_numero",
+        "valor"
+      ],
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "36499a8416e0d0577134f81df452cbd41b8efac3c4e61c6017695d99175b7f3d",
+      "check": "cna_silver_exportaciones_mensuales_libras.schema_sha256",
+      "run_B": "36499a8416e0d0577134f81df452cbd41b8efac3c4e61c6017695d99175b7f3d",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "e897afdfb42d7ee0a7a4bdf383117e5e88cef13d750840c815431ec39203d1c8",
+      "check": "cna_silver_exportaciones_mensuales_libras.sha256_canonical",
+      "run_B": "e897afdfb42d7ee0a7a4bdf383117e5e88cef13d750840c815431ec39203d1c8",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": 7,
+      "check": "cna_silver_mayo_historico.rows",
+      "run_B": 7,
+      "status": "PASS"
+    },
+    {
+      "baseline_A": [
+        "anio",
+        "libras",
+        "dolares",
+        "libras_variacion",
+        "dolares_variacion"
+      ],
+      "check": "cna_silver_mayo_historico.columns",
+      "run_B": [
+        "anio",
+        "libras",
+        "dolares",
+        "libras_variacion",
+        "dolares_variacion"
+      ],
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "b818bcf127d65d02ddece7b0a54f1a8a600be5b91b98d1bc8370ae5bc6e03a84",
+      "check": "cna_silver_mayo_historico.schema_sha256",
+      "run_B": "b818bcf127d65d02ddece7b0a54f1a8a600be5b91b98d1bc8370ae5bc6e03a84",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "993ece04fbcdaf80362b6102dc36676ecd1c38cbfce618e1a10522b92517d24f",
+      "check": "cna_silver_mayo_historico.sha256_canonical",
+      "run_B": "993ece04fbcdaf80362b6102dc36676ecd1c38cbfce618e1a10522b92517d24f",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": 589,
+      "check": "cna_silver_mercado_acumulado.rows",
+      "run_B": 589,
+      "status": "PASS"
+    },
+    {
+      "baseline_A": [
+        "pais",
+        "indicador",
+        "valor"
+      ],
+      "check": "cna_silver_mercado_acumulado.columns",
+      "run_B": [
+        "pais",
+        "indicador",
+        "valor"
+      ],
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "a3ff04db4792370d6c011f21404c2ded63a14d28f725d174f6c3bc00d4412e7d",
+      "check": "cna_silver_mercado_acumulado.schema_sha256",
+      "run_B": "a3ff04db4792370d6c011f21404c2ded63a14d28f725d174f6c3bc00d4412e7d",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "aa5bd00f521b90bf99280639653f01b8d7c501fcb467c956e5a1ba1f82360e3c",
+      "check": "cna_silver_mercado_acumulado.sha256_canonical",
+      "run_B": "aa5bd00f521b90bf99280639653f01b8d7c501fcb467c956e5a1ba1f82360e3c",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": 512,
+      "check": "cna_silver_mercado_mayo.rows",
+      "run_B": 512,
+      "status": "PASS"
+    },
+    {
+      "baseline_A": [
+        "pais",
+        "indicador",
+        "valor"
+      ],
+      "check": "cna_silver_mercado_mayo.columns",
+      "run_B": [
+        "pais",
+        "indicador",
+        "valor"
+      ],
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "a3ff04db4792370d6c011f21404c2ded63a14d28f725d174f6c3bc00d4412e7d",
+      "check": "cna_silver_mercado_mayo.schema_sha256",
+      "run_B": "a3ff04db4792370d6c011f21404c2ded63a14d28f725d174f6c3bc00d4412e7d",
+      "status": "PASS"
+    },
+    {
+      "baseline_A": "1bd76114213432e6f4126406066cb583d46334a1453defcee76eec3b49889ca3",
+      "check": "cna_silver_mercado_mayo.sha256_canonical",
+      "run_B": "1bd76114213432e6f4126406066cb583d46334a1453defcee76eec3b49889ca3",
+      "status": "PASS"
+    }
+  ],
+  "input_snapshots": {
+    "BCE": "2cb48f6bb83c56f6924d8f8233d03be2115b2e0d3000e3a359bccd25c8157672",
+    "CNA": "1217b296e50e37f8aafd045079d79119a4123cf0805e0c01b1636f62c10613a1"
+  },
+  "run_B_path": "/Volumes/camaronera_2026/oro/entregables/reproducibilidad_final_v2/repro_run_20260827T145229962310Z.json",
+  "run_B_run_ids": {
+    "bce_gold": "20260827T144519249191Z",
+    "bce_silver": "20260827T144407742305Z",
+    "cna_gold": "20260827T143120253287Z",
+    "cna_silver": "20260827T134516245828Z"
+  },
+  "status": "REPRODUCIBILITY_PASS",
+  "tables_verified": 19,
+  "test_schema_version": "2.0",
+  "verified_at_utc": "2026-08-27T14:52:30.820383+00:00"
+}

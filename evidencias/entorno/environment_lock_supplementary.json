@@ -1,0 +1,15 @@
+{
+  "captured_at_utc": "2026-08-27T14:57:38.352731+00:00",
+  "python": "3.12.3",
+  "python_full": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+  "spark": "4.2.0",
+  "pyspark": "4.1.0+databricks.connect.18.0.9",
+  "pandas": "2.2.3",
+  "openpyxl": "not_installed",
+  "delta-spark": "3.4.0+databricks.connect.18.0.9",
+  "playwright": "not_installed",
+  "databricks_runtime_env": "client.5.10",
+  "databricks_spark_version": "unavailable",
+  "spark_master": "unavailable",
+  "spark_timezone": "Etc/UTC"
+}
